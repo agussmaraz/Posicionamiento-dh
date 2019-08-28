@@ -1,0 +1,63 @@
+body {
+    background-image: url(../imagenes/bg-2.png);
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contenedor {
+    width: 960px;
+    margin: 0 auto;
+}
+.logo {
+    position: fixed;
+    left: 130px;
+    top: -5px;
+
+
+}
+.lista{
+    display: inline;
+    margin: 20px;
+    color: #E6EBF2;
+
+}
+.navegador {
+    overflow: hidden;
+    background-color: #ED692D;
+    margin-bottom: 60px;
+    position: fixed;
+    width: 960px;
+    top: 15px;
+    z-index: 1;
+}
+article {
+    overflow: hidden;
+}
+.descuento {
+     position: absolute;
+     top: 0px;
+}
+.cajas {
+    float: left;
+    width: 300px;
+    height: 168px;
+    margin: 10px;
+    position: relative;
+}
+
+section {
+    background-color: white;
+    width: 965px;
+    margin: 90px auto;
+}
+
+.parrafo {
+    background-color: rgba(00,00,00, 0.3);
+    padding: 3px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    top: -70px;
+}
